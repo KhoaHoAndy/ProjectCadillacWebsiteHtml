@@ -1,0 +1,230 @@
+﻿#allPage {
+    width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+#footer {
+	background-size: 100% 100%;
+	background-image: url('images/footer-header.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	top: 2010px;
+	width: 100%;
+	position: absolute;
+	height: 129px;
+}
+#header {
+	background-size: 100% 100%;
+	background-position: 100% 100%;
+	text-align: justify; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: medium;
+	color: #000000;
+	text-transform: capitalize;
+	background-image: url('images/footer-header.png');
+	background-repeat: no-repeat;
+	position: fixed;
+	height: 180px;
+	width: 100%;
+	z-index: 1;
+	top: 0px;
+}
+#profile {
+	font-size: smaller;
+	text-align: center;
+	font-family: verdana, Geneva, Tahoma, sans-serif;
+	height: 130px;
+	width: 100%;
+	position: fixed;
+	margin-left: 400px;
+	z-index: 2;
+	top: 0px;
+}
+#Navigation {
+	background-image: url('images/d136a59c57b481e52a693faf911107a3--badge-logo-logo-s.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	text-align: center;
+	background-color: #666666;
+	position: relative;
+	height: 800px;
+	width: 260px;
+	top: 222px;
+}
+#content {
+	font-family: verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	left: 280px;
+	top: 222px;
+	width: 810px;
+	height: 1680px;
+}
+#figure {
+	float: right;
+	display: block;
+	overflow: auto;
+	padding: 5px;
+	margin: 5px;
+	box-shadow: 5px 5px;
+	webkit-transform: rotate(3deg);
+    moz-transform: rotate(3deg);
+    o-transform: rotate(3deg);
+    ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    webkit-box-shadow: 5px 5px 5px #828282;
+    moz-box-shadow: 5px 5px 5px #828282;
+
+}
+#figure:hover{ webkit-transform :rotate (0 deg);
+moz-transform: rotate(0);
+o-transform:rotate(0 deg);
+transform: rotate(0deg);
+webkit-transition: -webkit-transform .5s linear;
+-moz-transition: -moz-transform .5s linear;
+-o-transition: -o-transform .5s linear;
+transition: transform .5s linear;
+	
+}
+td {
+	vertical-align: top;
+	border-top-style: solid;
+	border-top-width: thin;
+	border-top-color: #999999;
+}
+.title {
+	position: relative;
+	width: 100%;
+	margin-left: 160px;
+	text-align: center;
+	margin-top: auto;
+}
+#gallery ul {
+	list-style-type: none;
+}
+#gallery li {
+	display: list-item;
+	padding: 10px;
+}
+#gallery span {
+	display: none;
+}
+#gallery a:hover span {
+	overflow: visible;
+	display: block;
+	position: absolute;
+	top: 345px;
+	left: 240px;
+	visibility: visible;
+}
+#gallery img {
+	border-style: none;
+}
+fieldset {
+	border-style: solid none none none;
+	border-width: medium;
+	border-color: #999999;
+	margin-top: 10px;
+}
+Legend {
+	font-family: verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#price {
+	padding: 30px;
+}
+a {
+	color: #000000;
+	font-weight: bold;
+	font-size: medium;
+	text-decoration: none;
+	font-family: verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+	text-decoration: underline;
+	color: #0033CC;
+}
+.commend {
+	font-size: small;
+	float: right;
+	font-family: verdana, Geneva, Tahoma, sans-serif;
+}
+.BInvent {
+	font-size: smaller;
+	font-family: verdana, Geneva, Tahoma, sans-serif;
+}
+.font {
+	text-align: center;
+	color: #000000;
+	font-family: verdana, Geneva, Tahoma, sans-serif;
+}
+.form {
+	border-style: solid;
+}
+#sm {
+	padding: 10px 80px 10px 80px;
+	margin: 10px;
+	border-radius: 40px;
+}
+#location {
+	text-align: justify;
+	color: #999999;
+}
+
+strong {
+	color: #333333;
+}
+.icost {
+	float: left;
+	position: absolute;
+	display: inline;
+	width: 300px;
+	left: 690px;
+}
+.info {
+	position: absolute;
+	float: left;
+	display: inline;
+	width: 200px;
+	left: 520px;
+}
+.sumary {
+	padding: 5px;
+}
+#detail {
+	float: left;
+	position: absolute;
+	width: 600px;
+	left: 280px;
+}
+#function {
+	width: 550px;
+	position: absolute;
+	left: 300px;
+	top: 195px;
+}
+#parten {
+	float: right;
+	position: absolute;
+	top: 345px;
+	left: 240px;
+	display: block;
+}
+#costcar {
+	font-size: large;
+}
+#function0 {
+	width: 550px;
+	position: absolute;
+	left: 299px;
+	top: 224px;
+
+}
+.banner {
+	text-align: center;
+	margin-right: 435px;
+}
